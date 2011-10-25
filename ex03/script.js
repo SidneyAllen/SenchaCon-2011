@@ -10,7 +10,7 @@ function buildGrid() {
 		model: 'Contact',
 		proxy: {
 			type: 'ajax',
-			url : 'com/service.cfc?method=getContacts&queryType=querytostruct',
+			url : 'com/service.cfc?method=getContacts&queryType=orm',
 			reader: {
 				type: 'json',
 				root: 'contact'
@@ -25,7 +25,7 @@ function buildGrid() {
 		store: store,
 		columns: [
 			{ text: "Name", flex: 1, width: 120, dataIndex: 'name', sortable: true },
-			{ text: "Email", width: 100, dataIndex: 'email', sortable: true },
+			{ text: "Email", width: 200, dataIndex: 'email', sortable: true },
 		],
 		height: 210,
 		width: 600,

@@ -29,6 +29,8 @@
             }
             
             EntitySave(newContact);
+            struct['contact'] = '';
+
           
 		}
         

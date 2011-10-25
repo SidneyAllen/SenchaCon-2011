@@ -9,7 +9,7 @@ Ext.onReady(function(){
 		model: 'Contact',
 		proxy: {
 			type: 'ajax',
-			url : 'com/service.cfc?method=getContacts&queryType=struct',
+			url : 'com/service.cfc?method=getContacts',
 			reader: {
 				type: 'json',
 				root: 'contact'
