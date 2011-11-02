@@ -21,6 +21,7 @@
 
 	public void function setupRequest(){
 		showdebugoutput= false;
+
 		
 		if (isDefined('url.refresh')) {
 			setupApplication();

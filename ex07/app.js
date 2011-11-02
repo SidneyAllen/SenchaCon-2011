@@ -95,8 +95,7 @@ new Ext.Application({
 							MyApp.myStore.update();
 						}
 						
-						//MyApp.myStore.load();
-				 		panel.setActiveItem('list', { type: 'slide', direction: 'right' });
+						panel.setActiveItem('list', { type: 'slide', direction: 'right' });
 					
                     }
 					
@@ -119,7 +118,10 @@ new Ext.Application({
                     xtype: 'textfield',
                     name: 'email',
                     label: 'email'
-                }
+					},
+				{
+					xtype: 'spacer',
+				}
             ],
 			dockedItems: [contactEditToolbar]
             

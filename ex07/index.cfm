@@ -5,13 +5,14 @@
 <title>SenchaCon 2011 - ColdFusion</title>
 
 	 <!-- Sencha Touch CSS -->
-	 <link rel="stylesheet" href="/sencha-touch-1.1.0/resources/css/sencha-touch.css" type="text/css">
+	 <link rel="stylesheet" href="sencha-touch-1.1.0/resources/css/sencha-touch.css" type="text/css">
 
 	 <!-- Sencha Touch JS -->
-	 <script type="text/javascript" src="/sencha-touch-1.1.0/sencha-touch-debug.js"></script>
+	 <script type="text/javascript" src="sencha-touch-1.1.0/sencha-touch-debug.js"></script>
 
 	 <!-- Application JS -->
 	 <script src="app.js"></script>
+	 
 
 </head>
 

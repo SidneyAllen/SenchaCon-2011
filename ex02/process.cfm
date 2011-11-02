@@ -3,4 +3,4 @@
 <cfset return.form = form>
 <!---<cfset return.success = true>--->
 <cfset return['success'] = true>
-<cfoutput>#serializeJSON(return)#<cfsetting showdebugoutput="false" /></cfoutput><cfabort>		
+<cfoutput>#serializeJSON(return)#<cfsetting showdebugoutput="false" /></cfoutput>	

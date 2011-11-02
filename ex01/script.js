@@ -3,10 +3,8 @@ Ext.onReady(function(){
  
         standardSubmit: true,
  
-        frame:true,
         title: 'Contact',
 		url: 'process.cfm',
- 
         width: 350,
         defaults: {width: 230},
         defaultType: 'textfield',

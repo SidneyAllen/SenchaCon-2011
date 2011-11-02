@@ -2,12 +2,11 @@
 {
 	import  com.*;
 	
+    
 	remote any function contacts() 
     returnformat="JSON" 
 	{	
-
-
-		var struct = StructNew();
+    	var struct = StructNew();
         
 	    if (GetHttpRequestData().method eq 'POST') 
         {

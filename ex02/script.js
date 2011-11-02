@@ -2,7 +2,8 @@ Ext.onReady(function(){
 	var simple = new Ext.form.FormPanel({
  
         standardSubmit: false,
- 		id: 'contactForm',
+ 		
+		id: 'contactForm',
         frame:true,
         title: 'Contact',
 		width: 350,

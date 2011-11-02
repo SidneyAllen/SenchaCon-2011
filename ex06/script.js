@@ -77,7 +77,7 @@ Ext.onReady(function(){
 					url : 'com/service.cfc?method=addContact',
 					waitMsg: 'Processing Request',
 					success: function(simple, resp){
-						store.load();
+						//store.load();
 						simple.reset();
 					}
 				});

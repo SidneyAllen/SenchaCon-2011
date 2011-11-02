@@ -10,7 +10,7 @@ function buildGrid() {
 		model: 'Contact',
 		proxy: {
 			type: 'ajax',
-			url : 'com/service.cfc?method=getContacts&queryType=orm',
+			url : 'com/service.cfc?method=getContacts&queryType=querytostruct',
 			reader: {
 				type: 'json',
 				root: 'contact'
