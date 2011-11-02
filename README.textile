@@ -18,7 +18,7 @@ a datasource in the ColdFusion Administrator called "SenchaCon".
 The ORM feature will create the tables and you can load example 4, add a few contacts and then play with examples 3 - 7.
 
 
-h2. Code Contributions
+h2. Code Credits
 
 Steve "Cutter" Blade for his CFQueryReader javascript library
 Ben Nadel for his ColdFusion QueryToStruct function
